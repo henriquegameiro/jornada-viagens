@@ -1,3 +1,4 @@
+/* Versão Mobile */
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
@@ -36,7 +37,7 @@ nav {
 }
 
 .list-links li {
-  margin: 16px 0;
+  margin: 0;
 }
 
 .list-links li a {
@@ -46,9 +47,9 @@ nav {
   font-size: 24px;
 }
 
+/* Versão Tablet */
 @media screen and (min-width: 768px) {
   .navigation-menu {
-    margin-top: 0;
     width: 467px;
   }
 
