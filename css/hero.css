@@ -18,7 +18,6 @@
 /* Versão Desktop */
 @media screen and (min-width: 1024px) {
   .hero-img {
-    height: 620px;
     background-image: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
