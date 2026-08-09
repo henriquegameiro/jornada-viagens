@@ -76,3 +76,13 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .button:hover {
+    background-color: var(--primary-color);
+  }
+}
+
