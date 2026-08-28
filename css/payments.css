@@ -1,0 +1,87 @@
+.payments .content-container .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+
+.payments .content-container .image-gallery .image.bag {
+    background: url(../img/montagem-accessories.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.passport {
+    background: url(../img/montagem-passports.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.people {
+    background: url(../img/montagem-sf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.span {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+    .payments .content-container .image-gallery .image.bag {
+    background: url(../img/montagem-accessories-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.passport {
+    background: url(../img/montagem-passports-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.people {
+    background: url(../img/montagem-sf-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.span {
+    grid-column: span 2;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .payments .content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payments .content-container .image-gallery {
+        width: 790px
+    }
+
+    .payments .content-container .text-content {
+        width: 361px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .payments .content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payments .content-container .image-gallery {
+        width: 790px
+    }
+
+    .payments .content-container .text-content {
+        width: 361px;
+    }
+}
+
+
